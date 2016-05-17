@@ -1,0 +1,40 @@
+---
+title: Bare
+url: http://www.varunchoprafilms.com
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+defaults:
+- scope:
+    path: posts
+    type: posts
+  values:
+    layout: default
+    # permalink: "/posts/:title/"
+    permalink: "/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+  values:
+    layout: default
+baseurl:
+permalink: pretty
+exclude:
+- ".git"
+- ".gitignore"
+- ".DS_Store"
+- CNAME
+- ".sass-cache"
+- package.json
+- Gruntfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- LICENSE

@@ -1,0 +1,32 @@
+---
+title: Varun Chopra
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+permalink: pretty
+exclude: [
+  .git,
+  .gitignore,
+  .DS_Store,
+  CNAME,
+  # svg-icons,
+  # svg-decorations,
+  # scss,
+  .sass-cache,
+  package.json,
+  Gruntfile.js,
+  node_modules,
+  README.md,
+  Gemfile,
+  Gemfile.lock,
+  LICENSE,
+]

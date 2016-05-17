@@ -1,6 +1,6 @@
 # Bare
 
-Naked, but mildly opinionated boilerplate based on Jekyll for [Siteleaf (v2)](http://v2.siteleaf.com/). Everything is in the `gh-pages` branch, ignore the master.
+Naked, but mildly opinionated boilerplate based on Jekyll for [Siteleaf (v2)](http://v2.siteleaf.com/).
 
 ##Notes to Self (or whoever wants to mess around)
 

@@ -4,11 +4,32 @@
         {% include head.html %}
     </head>
     <body>
+        <!-- <div class="page-border">
+            <nav>
+                <a href="#">home</a>
+            </nav>
+        </div>
+        <div class="page-border left">
+            <nav>
+                <a href="#">
+                    email
+                </a>
+            </nav>
+        </div>
+        <div class="page-border right">
+            <nav>
+                <a href="#">behance</a>
+            </nav>
+        </div> -->
         {% include header.html %}
-        <main role="main">
-            {{ content }}
-        </main>
+
+        {{ content }}
+
         {% include footer.html %}
         {% include analytics.html %}
+        <script src="//localhost:35729/livereload.js"></script>
+
+        <script src="https://use.typekit.net/utd5cdh.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
     </body>
 </html>

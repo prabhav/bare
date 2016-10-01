@@ -1,5 +1,9 @@
 ---
+<<<<<<< Updated upstream
 title: Bare
+=======
+title: Aman Srivastava
+>>>>>>> Stashed changes
 timezone: UTC
 collections:
   posts:
@@ -17,7 +21,7 @@ exclude: [
   .git,
   .gitignore,
   .DS_Store,
-  CNAME,
+  # CNAME,
   # svg-icons,
   # svg-decorations,
   # scss,

@@ -2,4 +2,149 @@
 title: Home
 ---
 
-y00
+<section class="banner">
+	<article class="banner__name">
+		<span>a</span>
+		<span>m</span>
+		<span>A</span>
+		<span>n</span>
+		<span class="highlight">+</span>
+		<span>S</span>
+		<span>r</span>
+		<span>i</span>
+		<span>v</span>
+		<span>A</span>
+		<span>s</span>
+		<span>t</span>
+		<span>A</span>
+		<span>V</span>
+		<span>A</span>
+		<span class="highlight">.</span>
+	</article>
+
+	<article class="banner__text">
+		Aman Srivastava is a freelance graphic designer with a focus on branding, illustration and storytelling. <a href="#">High five him</a>.
+	</article>
+</section>
+
+<section class="section portfolio">
+
+	{% for post in site.work %}
+
+		<a href="{{ post.url }}" class="portfolio__item portfolio__item--{{ post.width }}">
+			<article>
+				{{ post.title }}
+			</article>
+		</a>
+
+	{% endfor %}
+
+
+
+	<!-- <a href="#" class="portfolio__item portfolio__item--half">
+		<article>
+			item in port
+		</article>
+	</a>
+
+	<a href="#" class="portfolio__item portfolio__item--full">
+		<article>
+			item in port
+		</article>
+	</a>
+
+	<a href="#" class="portfolio__item portfolio__item--quarter">
+		<article>
+			item in port
+		</article>
+	</a>
+
+	<a href="#" class="portfolio__item portfolio__item--thirds">
+		<article>
+			item in port
+		</article>
+	</a> -->
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="intro">
+
+	<h1>Aman Srivastava is a freelance graphic designer with a focus on branding, storytelling, and illustration.</h1>
+
+	<h2>Check out <a href="#">his work</a>, learn more <a href="#">about him</a> or <a href="#">high five him</a>.</h2>
+</div>
+
+<div class="intro">
+	<h1>Check out <a href="#">his work</a>, learn more <a href="#">about him</a> or <a href="#">high five him</a>.</h1>
+</div>
+
+</a><a href="#">
+	<span>we all do something.</span>
+</a>
+
+
+
+<a href="#">
+	<span>we all do something.</span>
+</a>
+<a href="#">
+	<span>we all do something.</span>
+</a>
+<a href="#">
+	<span>we all do something.</span>
+</a>
+<a href="#">
+	<span>we all do something.</span>
+</a>
+<a href="#">
+	<span>we all do something.</span>
+</a>
+<a href="#">
+	<span>we all do something.</span>
+</a>
+<a href="#">
+	<span>we all do something.</span>
+</a>
+<a href="#">
+	<span>we all do something.</span>
+</a>
+<a href="#">
+	<span>we all do something.</span>
+</a> -->

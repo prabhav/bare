@@ -1,3 +1,8 @@
+$font-heading: Imperial URW, Karla, Abril Fatface, Times, serif;
+$font-body: Karla, monospace, sans-serif;
+$font-caption: 'Francois One', Franklin Gothic, sans-serif;
+$font-monospace: Roboto Mono, monospace;
+
 // Variables
 
 $blue: #00adef;
@@ -10,11 +15,6 @@ $gray: rgb(31, 31, 31);
 
 $facebook-blue: #3b5998;
 $twitter-blue: #55acee;
-
-// $font-heading: Abril Fatface, Karla, Abril Fatface, Times, serif;
-$font-body: sans-serif;
-// $font-caption: 'Francois One', Franklin Gothic, sans-serif;
-// $font-monospace: 'Source Code Pro', Consolas, monospace;
 
 $small-width: 600px;
 $medium-width: 768px;
@@ -40,6 +40,56 @@ $large-width: 1024px;
 
 // Animations
 
+@keyframes spin {
+	0% { transform: rotate(0); }
+	100% { transform: rotate(359deg); }
+}
+
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes rotate-bg {
+  0% { background-position-x: 0; }
+  50% { background-position-x: 100%; }
+  100% { background-position-x: 200%; }
+}
+
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
 @keyframes blink {
 	0% { opacity: 1; }
 	50% { opacity: 0.5; }
@@ -60,7 +110,7 @@ $large-width: 1024px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-    background-attachment: fixed;
+    // background-attachment: fixed;
 }
 
 %word-break {
@@ -77,13 +127,14 @@ $large-width: 1024px;
 	background: $red;
 	color: white;
 }
+
 ::-moz-selection {
 	background: $red;
 	color: white;
 }
 
 html, body {
-	height: 100%;
+	min-height: 100%;
 }
 
 
@@ -99,6 +150,7 @@ a {
 
 * {
 	// transition: 0.25s;
+    box-sizing: border-box;
 }
 
 :focus {

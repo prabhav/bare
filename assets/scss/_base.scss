@@ -1,5 +1,6 @@
 body {
-	background: transparent;
+	// background: white;
+	background: white;
 	font: {
 		family: $font-body;
 		size: 100%;
@@ -8,6 +9,53 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.section {
+$padding--horizontal: 5%;
+$padding--vertical: 2rem;
 
+.section {
+	padding: $padding--vertical $padding--horizontal;
+}
+
+@keyframes blink {
+	0% {
+		color: hotpink;
+	}
+
+	25% {
+		color: blue;
+	}
+
+	50% {
+		color: hotpink;
+	}
+
+	75% {
+		color: blue;
+	}
+
+	100% {
+		color: hotpink;
+	}
+}
+
+@keyframes border-blink {
+	0% {
+		border-color: hotpink;
+	}
+
+	25% {
+		border-color: red;
+	}
+
+	50% {
+		border-color: #bada55;
+	}
+
+	75% {
+		border-color: #bada55;
+	}
+
+	100% {
+		border-color: hotpink;
+	}
 }

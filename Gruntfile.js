@@ -51,7 +51,7 @@ module.exports = function(grunt) {
         // }
       },
       html_refresh: {
-        files: ["*.html", "*.md", "_includes/*.html", "_layouts/*.html"],
+        files: ["*.html", "*.md", "_includes/*.html", "_layouts/*.html"], "_work/*"
         tasks: ["shell:jekyllBuild"],
         options: {
             spawn: false,

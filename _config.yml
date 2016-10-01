@@ -1,10 +1,14 @@
 ---
 <<<<<<< Updated upstream
 title: Bare
+<<<<<<< HEAD
 =======
 title: Aman Srivastava
 >>>>>>> Stashed changes
 url:
+=======
+url: http://www.varunchoprafilms.com
+>>>>>>> parent of 622db05... fixed config info
 timezone: UTC
 collections:
   posts:

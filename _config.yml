@@ -14,7 +14,6 @@ defaults:
     type: posts
   values:
     layout: default
-    # permalink: "/posts/:title/"
     permalink: "/:title/"
 - scope:
     path: ''

@@ -1,13 +1,5 @@
 ---
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 title: Bare
-=======
-title: Aman Srivastava
->>>>>>> Stashed changes
-=======
-title: Varun Chopra
->>>>>>> parent of 622db05... fixed config info
 timezone: UTC
 collections:
   posts:

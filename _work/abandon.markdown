@@ -1,11 +1,15 @@
 ---
-title: Project Name
-date: 2016-03-06 03:56:00 Z
-published: false
-position: 1
-banner: "/uploads/1.png"
-intro: Some intro for Abandon
-width: half
+title: title
+date: 2015-05-10 06:29:00 Z
+intro: something
+banner: "/uploads/2.png"
+images:
+- "/uploads/5.jpg"
+- "/uploads/2-fa8829.jpg"
+- "/uploads/3.jpg"
+- "/uploads/1.jpg"
+- "/uploads/4.jpg"
+width: full
 ---
 
 Content for abandon
